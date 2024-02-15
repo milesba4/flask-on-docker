@@ -22,7 +22,7 @@ $ mv .env.dev_example .env.dev.
 $ docker-compose -f docker-compose.prod.yml up -d --build
 $ docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
 ```
-Now, test this out by navigating to [](http://localhost:1336) 
+Now, test this out by navigating to http://localhost:1336
  
 ### Production
 *This makes use of the services Nginx and Gunicorn*
@@ -48,9 +48,9 @@ $ docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
 
 ### Testing 
 
-Upload an image and navigate to this page on your browser (firefox reccomended) : [](http://localhost:1336/upload)
+Upload an image and navigate to this page on your browser (firefox reccomended): http://localhost:1336/upload
 
-After uploading your file, navigate to this page on your browser to view the uploaded image: [](http://localhost:1336/media/IMAGE_FILE_NAME) (replace 'IMAGE_FILE_NAME' with name of uploaded image)
+After uploading your file, navigate to this page on your browser to view the uploaded image: http://localhost:1336/media/IMAGE_FILE_NAME (replace 'IMAGE_FILE_NAME' with name of uploaded image)
 
 
 
